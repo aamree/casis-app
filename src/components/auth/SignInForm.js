@@ -1,11 +1,11 @@
 import React from "react";
 import { reduxForm, Field } from "redux-form";
 
-function SignInForm() {
+function SignInForm({ handleSubmit }) {
   return (
     <div>
       <h2>Sign In</h2>
-      <form>
+      <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="email">Email</label>
           <Field name="email" component="input" />

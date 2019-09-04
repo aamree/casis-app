@@ -1,0 +1,14 @@
+{
+    "trigger": true,
+    "modules": [
+        "captcha-define-challenge"
+    ],
+    "parentResource": "casisapp443cbb3e",
+    "functionName": "casisapp443cbb3eDefineAuthChallenge",
+    "parentStack": "auth",
+    "triggerEnvs": "[]",
+    "triggerTemplate": "DefineAuthChallenge.json.ejs",
+    "roleName": "casisapp443cbb3eDefineAuthChallenge",
+    "skipEdit": true,
+    "resourceName": "casisapp443cbb3eDefineAuthChallenge"
+}

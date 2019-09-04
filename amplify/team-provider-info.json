@@ -1,0 +1,34 @@
+{
+    "casis": {
+        "awscloudformation": {
+            "AuthRoleName": "casis-app-casis-20190901231502-authRole",
+            "UnauthRoleArn": "arn:aws:iam::458028706258:role/casis-app-casis-20190901231502-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::458028706258:role/casis-app-casis-20190901231502-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "casis-app-casis-20190901231502-deployment",
+            "UnauthRoleName": "casis-app-casis-20190901231502-unauthRole",
+            "StackName": "casis-app-casis-20190901231502",
+            "StackId": "arn:aws:cloudformation:us-east-1:458028706258:stack/casis-app-casis-20190901231502/09ac9ed0-ccdc-11e9-b119-127a71eef55e"
+        },
+        "categories": {
+            "function": {
+                "casisapp443cbb3eDefineAuthChallenge": {},
+                "casisapp443cbb3eCreateAuthChallenge": {},
+                "casisapp443cbb3eVerifyAuthChallengeResponse": {
+                    "RECAPTCHASECRET": "6LdLErYUAAAAADu4HFRFPHtYbGcNbYqg7TUoHqfU"
+                },
+                "casisapp443cbb3eCustomMessage": {
+                    "REDIRECTURL": "casis.kz",
+                    "EMAILSUBJECT": "aamreev@gmail.com",
+                    "EMAILMESSAGE": ""
+                },
+                "casisapp443cbb3ePostConfirmation": {
+                    "GROUP": "watcher"
+                }
+            },
+            "auth": {
+                "casisapp443cbb3e": {}
+            }
+        }
+    }
+}

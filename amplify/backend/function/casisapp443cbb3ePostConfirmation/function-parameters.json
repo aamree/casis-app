@@ -1,0 +1,14 @@
+{
+    "trigger": true,
+    "modules": [
+        "add-to-group"
+    ],
+    "parentResource": "casisapp443cbb3e",
+    "functionName": "casisapp443cbb3ePostConfirmation",
+    "parentStack": "auth",
+    "triggerEnvs": "[]",
+    "triggerTemplate": "PostConfirmation.json.ejs",
+    "roleName": "casisapp443cbb3ePostConfirmation",
+    "skipEdit": true,
+    "resourceName": "casisapp443cbb3ePostConfirmation"
+}

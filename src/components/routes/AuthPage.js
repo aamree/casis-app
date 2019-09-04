@@ -2,8 +2,13 @@ import React from "react";
 import SignInForm from "../auth/SignInForm";
 import SignUpForm from "../auth/SignUpForm";
 import { Route, NavLink } from "react-router-dom";
+import { connect } from "react-redux";
+import { signUp } from "../../ducks/auth";
 
-function AuthPage() {
+function AuthPage({ signUp }) {
+  const handleSignIn = values => console.log("---", values);
+  const handleSignUp = ({ email, password }) => signUp(email, password);
+
   return (
     <div>
       <h1>AuthPage</h1>
@@ -25,7 +30,8 @@ function AuthPage() {
     </div>
   );
 }
-const handleSignIn = values => console.log("---", values);
-const handleSignUp = values => console.log("---", values);
 
-export default AuthPage;
+export default connect(
+  null,
+  { signUp }
+)(AuthPage);

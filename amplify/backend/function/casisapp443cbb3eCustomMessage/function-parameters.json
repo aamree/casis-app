@@ -1,0 +1,14 @@
+{
+    "trigger": true,
+    "modules": [
+        "verification-link"
+    ],
+    "parentResource": "casisapp443cbb3e",
+    "functionName": "casisapp443cbb3eCustomMessage",
+    "parentStack": "auth",
+    "triggerEnvs": "[{\"key\":\"RESOURCENAME\",\"value\":\"resourceName\"}]",
+    "triggerTemplate": "CustomMessage.json.ejs",
+    "roleName": "casisapp443cbb3eCustomMessage",
+    "skipEdit": true,
+    "resourceName": "casisapp443cbb3eCustomMessage"
+}

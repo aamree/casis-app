@@ -1,0 +1,14 @@
+{
+    "trigger": true,
+    "modules": [
+        "captcha-verify"
+    ],
+    "parentResource": "casisapp443cbb3e",
+    "functionName": "casisapp443cbb3eVerifyAuthChallengeResponse",
+    "parentStack": "auth",
+    "triggerEnvs": "[]",
+    "triggerTemplate": "VerifyAuthChallengeResponse.json.ejs",
+    "roleName": "casisapp443cbb3eVerifyAuthChallengeResponse",
+    "skipEdit": true,
+    "resourceName": "casisapp443cbb3eVerifyAuthChallengeResponse"
+}
